@@ -18,8 +18,8 @@ Key Features
    
    💻 Local Installation
    1. Clone the Repository
-        Bash git clone https://github.com/SAUBHAGYA-207/thermal-analysis-engine.git
-        cd thermal-analysis-engine
+        Bash git clone https://github.com/ayushkumar9122006/HMT_heat_plate_project.git
+        cd HMT_heat_plate_project
 2. Backend Setup
         Navigate to the root directory and install dependencies:Bash# Create a virtual environment (recommended)
         python -m venv venv
@@ -43,7 +43,7 @@ Run the development server:
     Bash npm run dev
 📖 How to Use 
 Launch the App: Open your browser at http://localhost:5173.
-Input Parameters: Set the Mesh Resolution (m) and Boundary Temperatures (T_d, T_u, T_l, T_r).
+Input Parameters: Set the Mesh Resolution (m),thermal conductivity(k) of plate , Boundary Temperatures (T_d, T_u, T_l, T_r) and heat trasfer coefficent(h) for convection boundary .
 
 Execute: Click Execute Analysis. Watch the real-time progress bar.
 Analyze:Observe the FDM vs Analytical heatmaps.
