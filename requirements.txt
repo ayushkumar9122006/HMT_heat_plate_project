@@ -1,0 +1,16 @@
+numpy
+scipy
+pandas 
+matplotlib 
+seaborn
+torch
+Flask
+streamlit==1.54.0
+plotly
+scikit-learn
+pydantic
+fastapi
+python-dotenv
+uvicorn
+supabase
+gunicorn
